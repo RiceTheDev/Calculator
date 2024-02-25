@@ -14,7 +14,7 @@ def plus():
     secontnmbr = int(input())
     time.sleep(0.3)
     os.system('cls')
-    print('The answer is ', firstnmbr + secontnmbr)
+    print('The answer is', firstnmbr + secontnmbr)
     sys.exit()
 
 def minus():
@@ -27,6 +27,7 @@ def minus():
     secontnmbr = int(input())
     time.sleep(0.3)
     os.system('cls')
+    print('The answer is', firstnmbr - secontnmbr)
     sys.exit()
     
 
@@ -40,7 +41,7 @@ def multiply():
     secontnmbr = int(input())
     time.sleep(0.3)
     os.system('cls')
-    print('The answer is ', firstnmbr * secontnmbr)
+    print('The answer is', firstnmbr * secontnmbr)
     sys.exit()
 
 def divide():
