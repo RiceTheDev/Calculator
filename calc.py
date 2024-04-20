@@ -75,6 +75,8 @@ def menu():
     if operator == '':
         print('Unknown Operator.')
     if operator == 'exit' or 'Exit':
+        print('Exiting...')
+        time.sleep(3)
         sys.exit()
         
 menu()
